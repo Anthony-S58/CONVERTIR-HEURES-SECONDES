@@ -8,7 +8,7 @@ let minutes = 60;
 let result = document.getElementById('result');
 let heures = document.querySelector('input');
 
-// result.textContent=;
+console.log(heures.value);
 
 result.innerHTML= heures.value*minutes*secondes +' secondes';
 
